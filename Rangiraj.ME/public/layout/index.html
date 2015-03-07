@@ -1,0 +1,265 @@
+<!doctype HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+	<title> RangirajME </title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+<style>
+
+#logoposition	
+				{
+					
+					left:50px;
+				}
+	
+.header
+			{
+				background-color:#2D3E52;
+				color:white;
+				position:fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				height:130px;
+			}
+
+
+.navigationbar	
+			{
+			   	font-size:30px;
+				position:fixed;
+				top:130px;
+				left:0;
+				right:0;
+				height:45px;
+			}
+
+
+.main 		
+			{	
+				position:fixed;
+				color:black;
+				top:205px;
+				bottom:100px;
+				left:0;
+				right:0;
+			}
+
+
+.footer
+			{
+				background-color:#2D3E52;
+				color:white;
+				position:fixed;
+				height:75px;
+				bottom:0;
+				left:0;
+				right:0;
+			}
+
+			
+.navbar_text
+			{
+				color:White;
+				font-style:bold;
+			}
+			
+			
+.navbar_style
+			{
+				background-color:#344A5F;
+			}
+			
+	
+	ul.nav a:hover  { background:#2D3E52; }
+	ul.nav a:focus  { background:#2D3E52; }
+
+	
+.fromright	
+			{
+				right:50px;
+			}
+
+
+
+.gevrek	
+			{
+				background:#2D3E52;
+			}
+
+
+
+</style>
+</head>
+
+
+<body>
+	
+	<!--Headero e voa i logoto so formite za login kje se tuka-->
+
+<div class="header">
+	<div class ="row">
+	
+		<div id="logoposition" class="col-md-5"> <a href="index.html"> <img src="C:\Users\Petar\Desktop\Rangiraj.ME\Sliki\logo.png" height="130" width="250"> </a> </div>
+		
+		<div  class="col-md-2">  </div> 
+			
+		<div class="col-md-2">
+		
+		<form role="form">
+		<div class="form-group">
+		<br>
+		<label class="input-md" for="email">Email:</label>
+		<input type="email" class="form-control input-sm" id="email" placeholder="Внесете мејл">
+		</div>
+		
+		<div class="checkbox">
+		<label><input type="checkbox"> Запамти ме </label>
+		</div>
+		</form>
+		
+		</div>
+		
+		<div class="col-md-2">
+		
+		<form role="form">
+		<div class="form-group">
+		<br>
+		<label class="input-md" for="pwd">Password:</label>
+		<input type="password" class="form-control input-sm" id="pwd" placeholder="Внесете пасворд">
+		</div>
+		</form>
+		<form role="form">
+		 <button type="submit" class="btn btn-default btn-xs pull-right">Потврди</button>
+		</form>
+		</div>
+				
+				<div class="col-md-1"></div>
+	</div>	
+</div>
+
+
+
+
+  
+
+
+
+
+<!--Voa e navigation-baro-->
+
+<div class="navigationbar">
+	<nav class="navbar navbar-custom navbar_style">
+		<div class="container-fluid"> 
+			<div class="navbar-header">
+   				<div>
+		
+      <ul  class="nav nav-justified" >
+		<li></li>
+   		<li id="pocetna"><a href="index.html" target="_blank">                   <p class="navbar_text"> Почетна        </p></a></li>
+		<li id="rangiraj"><a href="rangiraj.html" target="_blank">      	     <p class="navbar_text"> Рангирај       </p></a></li>
+        <li id="rezultati"><a href="rezultati.html" target="_blank">     	     <p class="navbar_text"> Резултати      </p></a></li>
+        <li id="registriraj"><a href="registrirajse.html">                 	                     <p class="navbar_text"> Регистрирај се </p></a></li>
+		<li></li>
+      </ul>
+	 
+	 			</div>
+			</div>
+		</div>
+	</nav>
+</div>
+
+
+
+
+<div class="main">
+	<div class="row">
+	<div class="col-md-12"></div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-2"> 			</div>
+		<div class="col-md-8">  		</div>
+		<div class="col-md-2"> 			</div>
+	</div>
+</div>
+
+
+<!--Voa e futero-->
+<div class="footer">
+	<div class ="row">
+		<div class="col-md-12">voa kje bide footero</div>
+	</div>
+</div>
+
+
+
+</body>
+
+<script>
+     $(document).ready(function(){
+			$("#pocetna").click(function(){
+		$("#rangiraj").removeClass('gevrek');
+		$("#rezultati").removeClass('gevrek');
+		$("#registriraj").removeClass('gevrek');
+			$("#pocetna").addClass('gevrek');
+			
+	});
+});
+  </script>
+  
+  
+   <script>
+     $(document).ready(function(){
+			$("#rangiraj").click(function(){
+		$("#pocetna").removeClass('gevrek');
+		$("#rezultati").removeClass('gevrek');
+		$("#registriraj").removeClass('gevrek');
+			$("#rangiraj").addClass('gevrek');
+			
+	});
+});
+  </script>
+  
+  
+   <script>
+     $(document).ready(function(){
+			$("#rezultati").click(function(){
+		$("#pocetna").removeClass('gevrek');
+		$("#rangiraj").removeClass('gevrek');
+		$("#registriraj").removeClass('gevrek');
+			$("#rezultati").addClass('gevrek');
+		
+			
+		});
+	});
+	</script>
+
+  <script>
+		$(document).ready(function(){
+				$("#registriraj").click(function(){
+		$("#pocetna").removeClass('gevrek');
+		$("#rangiraj").removeClass('gevrek');
+		$("#rezultati").removeClass('gevrek');
+			$("#registriraj").addClass('gevrek');
+			
+	});
+});
+  </script>
+</html>
