@@ -21,10 +21,11 @@
 		<!-- Attach necessary scripts -->
 		<!-- <script type="text/javascript" src="jquery-1.4.4.min.js"></script> -->
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
-		<script type="text/javascript" src="C:\wamp\www\Rangiraj.ME\public\javascripts\jquery.reveal.js"></script>
+		<script type="text/javascript" src="reveal/jquery.reveal.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="C:\wamp\www\Rangiraj.ME\public\styles\stylerang.css">
+<link rel="stylesheet" href="styles\stylerang.css">
+<link rel="stylesheet" href="reveal\reveal.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
@@ -35,24 +36,24 @@
 
 <body>
 		
-<div class="jumbotron">
+<br><br><br><br><br><br><br><br>
+<div class="jumbotron row1">
 	<div class="row">
 							<div class="col-md-4"> </div>
 		
 		<div class="col-md-4"> 
-			<h1 align="center">Рангирање</h1>
-			<p align="center">Следете ги упатствата подолу<br> Ви благодариме на соработката </p>				
+						
 		
 			<div class="dropdown  ">
 				<button class="btn btn-default dropdown-toggle btn-block" type="button" id="menu1" data-toggle="dropdown"> <div class="paragrafTxT">Одберете го универзитетот на кој што студирате</div>
 				<span class="caret"></span></button>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\ugd.png" hspace="25">   		Универзитет "Гоце Делчев" -Штип				<img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\star.png" align="right">	</a></li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\ukim.png"hspace="25">   		Универзитет "Св. Кирил и Методиј" - Скопје	<img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\star.png" align="right">	</a></li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\fon.png" hspace="25">   		Универзитет "ФОН -Скопје" 					<img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\star.png" align="right">	</a></li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\uist.png" hspace="25">  		Универзитет "Св. Апостол Павле" -Охрид		<img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\star.png" align="right">	</a></li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\klime.png" hspace="30"> 		Универзитет "Св Климент Охридски" -Битола	<img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\star.png" align="right">	</a></li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\evrobalkan.png" hspace="25">  Универзитет "Евробалкан" -Скопје			<img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\star.png" align="right">	</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="ugd.png" hspace="25">   		Универзитет "Гоце Делчев" -Штип				<img src="star.png" align="right">	</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="ukim.png"hspace="25">   		Универзитет "Св. Кирил и Методиј" - Скопје	<img src="star.png" align="right">	</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="fon.png" hspace="25">   		Универзитет "ФОН -Скопје" 					<img src="star.png" align="right">	</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="uist.png" hspace="25">  		Универзитет "Св. Апостол Павле" -Охрид		<img src="star.png" align="right">	</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="klime.png" hspace="30"> 		Универзитет "Св Климент Охридски" -Битола	<img src="star.png" align="right">	</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">  <img src="evrobalkan.png" hspace="25">  Универзитет "Евробалкан" -Скопје			<img src="star.png" align="right">	</a></li>
 						<li role="presentation" class="divider"></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Доколку вашиот Универзитет го нема на листата, пишете ни на контакт мејлот.</a></li>
 				</ul>				
@@ -74,8 +75,8 @@
 	
 	
 	
-<div class="navigationbar" >
-	<nav class="navbar navbar-custom navbar_style">
+<div class="navigationbar navigationbar1" >
+	<nav class="navbar navbar-custom navbar_style1">
    
         <div class="navbar-header"></div>
 		<div class="navbar-collapse collapse">
@@ -141,9 +142,9 @@
 					<li role="presentation"><class="dropdown-header"><div class="paragrafTxT">Odbereto go kampusot koj kje go rangirate</div> </li>
 					<li role="presentation" class="divider"></li>
 					
-						<li><a href="#" data-reveal-id="myModal2"><img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\k1.jpg"></a></li>
-						<li><a href="#" data-reveal-id="myModal2"><img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\k2.jpg"></a></li>
-						<li><a href="#" data-reveal-id="myModal2"><img src="C:\wamp\www\Rangiraj.ME\public\images\Sliki\k3.jpg"></a></li>
+						<li><a href="#" data-reveal-id="myModal2"><img src="Sliki\k1.jpg"></a></li>
+						<li><a href="#" data-reveal-id="myModal2"><img src="Sliki\k2.jpg"></a></li>
+						<li><a href="#" data-reveal-id="myModal2"><img src="Sliki\k3.jpg"></a></li>
 						<li class="divider"></li>
                     </ul>
 			     </div>
@@ -264,96 +265,7 @@
 	
 
 	
-</div>
-		
-		
-			
-				
-		
-		<div id="myModal" class="reveal-modal">
-			<h4 align="center">Факултетот може да го рангирате <br> преку следните параметри: </h1>
-			<p>
-			<br>
-			
-				<ul>
-					<li>Услови:	</li>
-					<li>Пракса:	</li>
-					<li>Кадар:  </li>
-					
-				</ul>
-				
-				
-				<div class="form-group">
-				<label for="comment">Коментар:</label>
-				<textarea class="form-control" rows="3" id="comment" placeholder="Оставете Коментар"></textarea>
-				</div>
-				
-				<button type="submit" class="btn btn-default pull-right">Потврди</button>
-				
-			</p>
-			<a class="close-reveal-modal">&#215;</a>
-		</div>
-		
-		
-		
-		<div id="myModal2" class="reveal-modal">
-			<h4 align="center">Кампусот може да го рангирате <br> преку следните параметри: </h1>
-			<p>
-			<br>
-			
-				<ul>
-					<li>Хигиена:	</li>
-					<li>Локација:	</li>
-					<li>Услови:  	</li>
-					
-				</ul>
-				
-				
-				<div class="form-group">
-				<label for="comment">Коментар:</label>
-				<textarea class="form-control" rows="3" id="comment" placeholder="Оставете Коментар"></textarea>
-				</div>
-				
-				<button type="submit" class="btn btn-default pull-right">Потврди</button>
-				
-			</p>
-			<a class="close-reveal-modal">&#215;</a>
-		</div>
-		
-		
-		
-		
-		
-		<div id="myModal3" class="reveal-modal">
-			<h4 align="center">Кампусот може да го рангирате <br> преку следните параметри: </h1>
-			<p>
-			<br>
-			
-				<ul>
-					<li>Литература:	</li>
-					<li>Одговорност:	</li>
-					<li>Предавања:  	</li>
-					
-				</ul>
-				
-				
-				<div class="form-group">
-				<label for="comment">Коментар:</label>
-				<textarea class="form-control" rows="3" id="comment" placeholder="Оставете Коментар"></textarea>
-				</div>
-				
-				<button type="submit" class="btn btn-default pull-right">Потврди</button>
-				
-			</p>
-			<a class="close-reveal-modal">&#215;</a>
-		</div>
-		
-		
-		
-		
-		
-		
-		
+
 		
 
 
